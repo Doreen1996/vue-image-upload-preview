@@ -95,7 +95,7 @@ export default {
       this.$refs.imgaeUpload.uploadImages(this.images)
       .then(res => {
         console.log(res);
-      })catch(err => {
+      }).catch(err => {
         console.log(err);
       })
     }
